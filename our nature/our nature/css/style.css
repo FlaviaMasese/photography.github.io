@@ -1190,9 +1190,9 @@ input::-ms-input-placeholder {
     --color-primary-variant:#e5a55d;
     --color-bg-1:rgba(0, 0, 0, 0.647);
     --color-bg-2:rgb(1, 41, 41);
-    --color-bg-3: #7DC576(55, 129, 55, 0.934);
-    --color-bg-4:rgb(1, 41, 41);
-    --color-light:rgba(0, 128, 128, 0.395);
+    --color-bg-3: rgb(40, 131, 79);
+    --color-bg-4:rgba(1, 41, 41, 0.701);
+    --color-light:rgb(1, 41, 41);
     --color-white:hsl(0, 0%, 90%);
     --container-width-lg: 88%;
     --container-width-md: 92%;
@@ -1438,7 +1438,7 @@ a:hover {
     padding: 7px 10px;
     background-color: #122;
     border-radius: 3px;
-    color: #FFF;
+    color: #122;
     transition: .35s ease-in-out;
     position: absolute;
     left: 15px;
