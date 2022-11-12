@@ -27,7 +27,7 @@ a:focus {
 }
 
 p {
-    color: #666;
+    color: black;
     font-size: 14px;
     line-height: 24px;
     padding: 0;
@@ -1190,7 +1190,7 @@ input::-ms-input-placeholder {
     --color-primary-variant:#e5a55d;
     --color-bg-1:rgba(0, 0, 0, 0.647);
     --color-bg-2:rgb(1, 41, 41);
-    --color-bg-3: rgb(40, 131, 79);
+    --color-bg-3: rgb(40, 131, 40);
     --color-bg-4:rgba(1, 41, 41, 0.701);
     --color-light:rgb(1, 41, 41);
     --color-white:hsl(0, 0%, 90%);
