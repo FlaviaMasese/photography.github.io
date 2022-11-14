@@ -619,6 +619,7 @@ h2 {
 #portfolio {
     position: relative;
     padding: 50px 0 60px 0;
+    padding: 0;
 }
 
 .port-item {
@@ -1199,12 +1200,6 @@ input::-ms-input-placeholder {
     --transition: all 400ms ease;
 }
 
-
-#gallery{
-    margin-top: 12rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
 .gallery_head{
     display: flex;
     justify-content: space-between;
@@ -1213,7 +1208,7 @@ input::-ms-input-placeholder {
     width: 45rem;
 }
 .swiper-wrapper{
-    height: 1000px;
+    
     margin-top: 1rem;
     height: 37rem;
     padding-bottom: 5rem;
@@ -1235,17 +1230,19 @@ input::-ms-input-placeholder {
 .swiper-slide:hover img{
     filter: saturate(1)
 }
-.swiper-pagination-bullet{
-    background: var(--color-primary);
-    margin-bottom: 1rem;
+.swiper-pagination{
+    padding-bottom: 25rem;
+}
+#gallerie{
+    display:flex;
+    padding:0px;
+    background-color: rgb(64, 172, 72);
 }
 #galleries{
-    margin-top: 1rem;
-
-}
-#gallery{
-    padding: 1rem;
-    margin-bottom: 1rem;
+    display: flex;
+    padding:0px;
+   
+    background-color:#7DC576;
 }
 /*----Header----*/
 .head{
@@ -1499,7 +1496,9 @@ animation: reveal 7s infinite;
   }
 
 
-  svg{font-weight:bold;max-width:600px;height:100%;}
+  svg{font-weight:bold;
+    max-width:600px;
+    height:100%;}
 
 
 .Anime{
