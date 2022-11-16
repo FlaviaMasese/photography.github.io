@@ -1234,14 +1234,14 @@ input::-ms-input-placeholder {
     padding-bottom: 25rem;
 }
 #gallerie{
-    display:flex;
-    padding:0px;
     background-color: rgb(64, 172, 72);
+    height: 10%;
 }
 #galleries{
     display: flex;
-    padding:0px;
-   
+    margin: 0;
+    padding: 0;
+    border-bottom: 10rem;
     background-color:#7DC576;
 }
 /*----Header----*/
@@ -1435,7 +1435,7 @@ a:hover {
     padding: 7px 10px;
     background-color: #122;
     border-radius: 3px;
-    color: #122;
+    color: #a0ab08;
     transition: .35s ease-in-out;
     position: absolute;
     left: 15px;
@@ -1445,7 +1445,7 @@ a:hover {
   
   .white-mode:hover {
     background-color: #FFF;
-    color: #122;
+    color: rgb(32, 34, 17);
   }
 /* styling my button */
 
@@ -1523,7 +1523,7 @@ animation: reveal 7s infinite;
   }
 }
 .text-center{
-    color: teal;
+    color: rgb(128, 128, 0);
 }
   
   
