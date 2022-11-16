@@ -62,3 +62,7 @@ textButtons.forEach(textButton => {
     text.innerHTML = text.innerHTML.split('').map((character, index) =>`<span style="transform: rotate($
     {index * 12}deg">${character}</span)>`).join('')
 })
+
+const text = document.querySelector('.texts p');
+text.innerHTML = text.innerText.split('').map((character, index) =>`<span style="transform:rotate($
+    {index * 12}deg)">${character}</span)>`).join('');
