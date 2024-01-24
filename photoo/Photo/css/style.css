@@ -62,7 +62,7 @@ h2 {
 .header {
     display: table;
     position: relative;
-    background-image: url(photoo/Photo/img/header-bg.jpg);
+    background-image: url(..photoo/Photo/img/header-bg.jpg);
     background-size: cover;
     padding: 100px 0;
     color: #fff;
